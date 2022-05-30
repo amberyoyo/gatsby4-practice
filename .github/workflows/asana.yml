@@ -1,0 +1,20 @@
+name: Sync to Asnan
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  create-comment-in-asana-task-job:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    name: Create a comment in Asana Task
+    steps:
+    - name: Create a comment
+      uses: Asana/comment-on-task-github-action@latest
+      id: createComment
+      with:
+        asana-secret: ${{ secrets.ASANA_SECRET }}
+        comment-text: "{{PR_NAME}} is {{PR_STATE}} and merged: {{PR_URL}}"
+    - name: Get status
+      run: echo "Status is ${{ steps.createComment.outputs.status }}"

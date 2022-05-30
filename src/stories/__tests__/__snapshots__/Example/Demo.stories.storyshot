@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`storybook test Storyshots Example Demo 1`] = `
+<main
+  style="color: rgb(35, 33, 41); padding: 96px; font-family: -apple-system, Roboto, sans-serif, serif;"
+>
+  <title>
+    Home Page
+  </title>
+  <h1
+    style="margin-top: 0px; margin-bottom: 64px; max-width: 320px;"
+  >
+    Congratulations
+    <br />
+    <span
+      style="color: rgb(102, 51, 153);"
+    >
+      — you just made a Gatsby site! 
+    </span>
+    🎉🎉🎉
+  </h1>
+  <p
+    style="margin-bottom: 48px;"
+  >
+    Edit 
+    <code
+      style="color: rgb(138, 101, 52); padding: 4px; background-color: rgb(255, 244, 219); font-size: 1.25rem; border-radius: 4px;"
+    >
+      src/pages/index.tsx
+    </code>
+     to see this page update in real-time. 😎
+  </p>
+  <ul
+    style="margin-bottom: 96px; padding-left: 0px;"
+  >
+    <li
+      style="color: rgb(137, 84, 168); font-weight: bold; font-size: 16px; vertical-align: 5%; list-style-type: none; margin-bottom: 24px;"
+    >
+      <a
+        href="https://www.gatsbyjs.com/docs/how-to/custom-configuration/typescript/?utm_source=starter&utm_medium=ts-docs&utm_campaign=minimal-starter-ts"
+        style="color: rgb(137, 84, 168); font-weight: bold; font-size: 16px; vertical-align: 5%;"
+      >
+        TypeScript Documentation
+      </a>
+    </li>
+    <li
+      style="font-weight: 300; font-size: 24px; max-width: 560px; margin-bottom: 30px; color: rgb(233, 88, 0);"
+    >
+      <span>
+        <a
+          href="https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter-ts"
+          style="color: rgb(137, 84, 168); font-weight: bold; font-size: 16px; vertical-align: 5%;"
+        >
+          Tutorial
+        </a>
+        <p
+          style="color: rgb(35, 33, 41); font-size: 14px; margin-top: 10px; margin-bottom: 0px; line-height: 1.25;"
+        >
+          A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.
+        </p>
+      </span>
+    </li>
+    <li
+      style="font-weight: 300; font-size: 24px; max-width: 560px; margin-bottom: 30px; color: rgb(16, 153, 168);"
+    >
+      <span>
+        <a
+          href="https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter-ts"
+          style="color: rgb(137, 84, 168); font-weight: bold; font-size: 16px; vertical-align: 5%;"
+        >
+          How to Guides
+        </a>
+        <p
+          style="color: rgb(35, 33, 41); font-size: 14px; margin-top: 10px; margin-bottom: 0px; line-height: 1.25;"
+        >
+          Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.
+        </p>
+      </span>
+    </li>
+    <li
+      style="font-weight: 300; font-size: 24px; max-width: 560px; margin-bottom: 30px; color: rgb(188, 2, 127);"
+    >
+      <span>
+        <a
+          href="https://www.gatsbyjs.com/docs/reference/?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter-ts"
+          style="color: rgb(137, 84, 168); font-weight: bold; font-size: 16px; vertical-align: 5%;"
+        >
+          Reference Guides
+        </a>
+        <p
+          style="color: rgb(35, 33, 41); font-size: 14px; margin-top: 10px; margin-bottom: 0px; line-height: 1.25;"
+        >
+          Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.
+        </p>
+      </span>
+    </li>
+    <li
+      style="font-weight: 300; font-size: 24px; max-width: 560px; margin-bottom: 30px; color: rgb(13, 150, 242);"
+    >
+      <span>
+        <a
+          href="https://www.gatsbyjs.com/docs/conceptual/?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter-ts"
+          style="color: rgb(137, 84, 168); font-weight: bold; font-size: 16px; vertical-align: 5%;"
+        >
+          Conceptual Guides
+        </a>
+        <p
+          style="color: rgb(35, 33, 41); font-size: 14px; margin-top: 10px; margin-bottom: 0px; line-height: 1.25;"
+        >
+          Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.
+        </p>
+      </span>
+    </li>
+    <li
+      style="font-weight: 300; font-size: 24px; max-width: 560px; margin-bottom: 30px; color: rgb(142, 184, 20);"
+    >
+      <span>
+        <a
+          href="https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter-ts"
+          style="color: rgb(137, 84, 168); font-weight: bold; font-size: 16px; vertical-align: 5%;"
+        >
+          Plugin Library
+        </a>
+        <p
+          style="color: rgb(35, 33, 41); font-size: 14px; margin-top: 10px; margin-bottom: 0px; line-height: 1.25;"
+        >
+          Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.
+        </p>
+      </span>
+    </li>
+    <li
+      style="font-weight: 300; font-size: 24px; max-width: 560px; margin-bottom: 30px; color: rgb(102, 51, 153);"
+    >
+      <span>
+        <a
+          href="https://www.gatsbyjs.com/cloud?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter-ts"
+          style="color: rgb(137, 84, 168); font-weight: bold; font-size: 16px; vertical-align: 5%;"
+        >
+          Build and Host
+        </a>
+        <span
+          aria-label="New Badge"
+          style="color: rgb(255, 255, 255); background-color: rgb(8, 132, 19); border: 1px solid #088413; font-size: 11px; font-weight: bold; letter-spacing: 1px; border-radius: 4px; padding: 4px 6px; display: inline-block; position: relative; top: -2px; margin-left: 10px; line-height: 1;"
+        >
+          NEW!
+        </span>
+        <p
+          style="color: rgb(35, 33, 41); font-size: 14px; margin-top: 10px; margin-bottom: 0px; line-height: 1.25;"
+        >
+          Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!
+        </p>
+      </span>
+    </li>
+  </ul>
+  <img
+    alt="Gatsby G Logo"
+    src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
+  />
+</main>
+`;

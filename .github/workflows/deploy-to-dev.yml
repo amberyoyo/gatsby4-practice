@@ -1,0 +1,20 @@
+name: Trigger Jenkins Dev
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    if: ${{ false }}  # disable for now
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Trigger Jenkins Job"
+        uses: amberyoyo/build-jenkins-job@1.0.1
+        with:
+          jenkins-url: "oajenkins.nextdrive.io"
+          jenkins-token: ${{ secrets.JENKINS_TOKEN }}
+          user: ${{ secrets.JENKINS_USER }}
+          job-path: "job/Dev/job/<PROJECT>/job/<REPO>"
+          job-params: '{"<BUILD>": "true", "<GIT_BRANCH>":"master"}'
